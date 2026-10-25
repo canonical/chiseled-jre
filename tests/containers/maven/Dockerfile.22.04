@@ -3,7 +3,7 @@ ARG BASE_IMAGE=ubuntu/jre:17_edge
 ARG CHISEL_VERSION=1.4.2
 ARG TARGETARCH=amd64
 
-FROM public.ecr.aws/ubuntu/ubuntu:$UBUNTU_RELEASE@sha256:9ef2baf83b26485e2a4c36afefd01d8ebe59f9c48c8486f522c20d76c522bcc3 AS jdk
+FROM public.ecr.aws/ubuntu/ubuntu:$UBUNTU_RELEASE@sha256:7e421ec89eccbc7b0b38c0e4cea41548b4bd0d4cff63c42355fadd0369f49fa0 AS jdk
 
 ARG CHISEL_VERSION
 ARG TARGETARCH
